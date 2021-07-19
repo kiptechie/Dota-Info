@@ -1,7 +1,6 @@
-package com.codingwithmitch.topplayersui
+package com.codingwithmitch.dotainfo.presentation.playersui
 
 import androidx.compose.ui.test.junit4.createComposeRule
-import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.codingwithmitch.player.Player
 import com.codingwithmitch.player.Profile
 import com.codingwithmitch.topplayersui.presentation.TopPlayers
@@ -10,10 +9,9 @@ import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import org.junit.Rule
 import org.junit.Test
-import org.junit.runner.RunWith
 
 /**
- * I can't seem to get this test to run
+ * This test is exactly the same as the one in the topPlayersUi module but it will not run there.
  */
 @HiltAndroidTest
 class ComposeIsolationTest {
@@ -46,15 +44,3 @@ class ComposeIsolationTest {
         assert(true)
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
